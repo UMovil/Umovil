@@ -43,11 +43,6 @@
                 android:paddingLeft="40dp"
                 android:paddingRight="40dp">
 
-                <!--<TextView
-                    android:layout_width="420dp"
-                    android:layout_height="220dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/iv_dashboard" />-->
 
                 <!--Bloque 1-->
                 <LinearLayout
@@ -71,7 +66,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:text="@string/ii"
+                            android:text="@string/is"
                             android:textColor="@color/primary_text"
                             android:textSize="16sp" />
 
@@ -109,7 +104,7 @@
 
                 </LinearLayout>
 
-                <!--Bloque 3-->
+<!--                &lt;!&ndash;Bloque 3&ndash;&gt;
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -138,7 +133,7 @@
 
                 </LinearLayout>
 
-                <!--Bloque 4-->
+                &lt;!&ndash;Bloque 4&ndash;&gt;
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -165,7 +160,7 @@
 
                     </LinearLayout>
 
-                </LinearLayout>
+                </LinearLayout>-->
 
 
             </LinearLayout>
