@@ -26,6 +26,12 @@
         android:layout_below="@id/toolbar"
         android:orientation="vertical">
 
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="@drawable/iv_dashboard" />
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -34,13 +40,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp">
 
-                <TextView
+                <!--<TextView
                     android:layout_width="420dp"
                     android:layout_height="220dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/iv_dashboard" />
+                    android:background="@drawable/iv_dashboard" />-->
 
                 <!--Bloque 1-->
                 <LinearLayout
@@ -65,6 +72,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="@string/ii"
+                            android:textColor="@color/primary_text"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -86,14 +94,15 @@
                         android:layout_width="0dp"
                         android:layout_height="160dp"
                         android:layout_weight="1"
-                        android:background="@color/primary"
+                        android:background="@drawable/iv_is"
                         android:orientation="vertical">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
-                            android:text="@string/ii"
+                            android:text="@string/is"
+                            android:textColor="@color/white"
                             android:textSize="16sp" />
 
                     </LinearLayout>
@@ -138,8 +147,7 @@
                     android:baselineAligned="false"
                     android:elevation="6dp"
                     android:orientation="horizontal"
-                    android:weightSum="1"
-                    >
+                    android:weightSum="1">
 
                     <LinearLayout
                         android:layout_width="0dp"
