@@ -30,7 +30,7 @@
             android:layout_width="300dp"
             android:layout_height="160dp"
             android:layout_gravity="center"
-            android:background="@drawable/iv_dashboard" />
+            android:background="@drawable/iv_dashboard"/>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -41,7 +41,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingLeft="40dp"
-                android:paddingRight="40dp">
+                android:paddingRight="40dp"
+                android:paddingTop="10dp">
 
 
                 <!--Bloque 1-->
@@ -65,10 +66,16 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:elevation="10dp"
                             android:gravity="center"
-                            android:text="@string/is"
-                            android:textColor="@color/primary_text"
-                            android:textSize="16sp" />
+                            android:shadowColor="@color/primary_text"
+                            android:shadowDx="1"
+                            android:shadowDy="1"
+                            android:shadowRadius="2"
+                            android:text="@string/ii"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
@@ -95,72 +102,78 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:elevation="10dp"
                             android:gravity="center"
+                            android:shadowColor="@color/primary_text"
+                            android:shadowDx="1"
+                            android:shadowDy="1"
+                            android:shadowRadius="2"
                             android:text="@string/is"
                             android:textColor="@color/white"
-                            android:textSize="16sp" />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 
                 </LinearLayout>
 
-<!--            Bloque 3
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:background="#fff"
-                    android:baselineAligned="false"
-                    android:elevation="6dp"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
+                <!--            Bloque 3
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp"
+                                    android:background="#fff"
+                                    android:baselineAligned="false"
+                                    android:elevation="6dp"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
 
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="160dp"
-                        android:layout_weight="1"
-                        android:background="@color/primary"
-                        android:orientation="vertical">
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="160dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/primary"
+                                        android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="@string/ii"
-                            android:textSize="16sp" />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:text="@string/ii"
+                                            android:textSize="16sp" />
 
-                    </LinearLayout>
+                                    </LinearLayout>
 
-                </LinearLayout>
+                                </LinearLayout>
 
-                 Bloque 4
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:background="#fff"
-                    android:baselineAligned="false"
-                    android:elevation="6dp"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
+                                 Bloque 4
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp"
+                                    android:background="#fff"
+                                    android:baselineAligned="false"
+                                    android:elevation="6dp"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
 
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="160dp"
-                        android:layout_weight="1"
-                        android:background="@color/primary"
-                        android:orientation="vertical">
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="160dp"
+                                        android:layout_weight="1"
+                                        android:background="@color/primary"
+                                        android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:text="@string/ii"
-                            android:textSize="16sp" />
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:text="@string/ii"
+                                            android:textSize="16sp" />
 
-                    </LinearLayout>
+                                    </LinearLayout>
 
-                </LinearLayout>-->
+                                </LinearLayout>-->
 
 
             </LinearLayout>

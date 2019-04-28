@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.exit) {
             Toast.makeText(getApplicationContext(), "You Click Exit",
                     Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.setting) {
-            Toast.makeText(getApplicationContext(), "You Click Setting",
+        } else if (id == R.id.home) {
+            Toast.makeText(getApplicationContext(), "You Click Home",
                     Toast.LENGTH_SHORT).show();
         } else if (id == R.id.search) {
             Toast.makeText(getApplicationContext(), "You Click Search",

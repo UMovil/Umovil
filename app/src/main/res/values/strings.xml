@@ -3,4 +3,9 @@
     <string name="logo">logo</string>
     <string name="ii">INFORMACION DE INTERES</string>
     <string name="is">INGENIERIA DE SOFTWARE</string>
+    <string name="Share">Share</string>
+    <string name="About">About</string>
+    <string name="Exit">Exit</string>
+    <string name="Search">Search</string>
+    <string name="Home">Home</string>
 </resources>
