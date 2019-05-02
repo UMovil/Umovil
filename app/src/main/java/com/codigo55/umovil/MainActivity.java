@@ -1,10 +1,12 @@
 package com.codigo55.umovil;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -21,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
         //getSupportActionBar().setDisplayShowHomeEnabled(true);
         //getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
+    }
+
+    //MEtodos
+    public void Siguiente(View view){
+        Intent siguiente = new Intent(this,activity_is.class);
+
+        startActivity(siguiente);
     }
 
     @Override

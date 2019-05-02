@@ -8,4 +8,9 @@
     <string name="Exit">Exit</string>
     <string name="Search">Search</string>
     <string name="Home">Home</string>
+    <string name="s1">1.SEMESTRE</string>
+    <string name="s2">2. SEMESTRE</string>
+    <string name="s3">3. SEMESTRE</string>
+    <string name="s4">4. SEMESTRE</string>
+    <string name="s5">5. SEMESTRE</string>
 </resources>

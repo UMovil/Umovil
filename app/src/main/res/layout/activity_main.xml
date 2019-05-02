@@ -34,7 +34,7 @@
             android:layout_width="300dp"
             android:layout_height="160dp"
             android:layout_gravity="center"
-            android:background="@drawable/iv_dashboard"/>
+            android:background="@drawable/iv_dashboard" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -45,8 +45,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingLeft="40dp"
-                android:paddingRight="40dp"
-                android:paddingTop="10dp">
+                android:paddingTop="10dp"
+                android:paddingRight="40dp">
 
 
                 <!--Bloque 1-->
@@ -108,6 +108,7 @@
                             android:layout_height="match_parent"
                             android:elevation="10dp"
                             android:gravity="center"
+                            android:onClick="Siguiente"
                             android:shadowColor="@color/primary_text"
                             android:shadowDx="1"
                             android:shadowDy="1"
