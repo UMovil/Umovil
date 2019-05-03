@@ -16,22 +16,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        //Icon de la app
-        //getSupportActionBar().setDisplayShowHomeEnabled(true);
-        //getSupportActionBar().setIcon(R.mipmap.ic_launcher);
-
     }
 
     //MEtodos
-    public void Siguiente(View view){
-        Intent siguiente = new Intent(this,activity_is.class);
-
-        startActivity(siguiente);
+    public void next(View view){
+        Intent next = new Intent(this,activity_is.class);
+        startActivity(next);
     }
 
     @Override

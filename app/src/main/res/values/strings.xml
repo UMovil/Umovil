@@ -13,4 +13,11 @@
     <string name="s3">3. SEMESTRE</string>
     <string name="s4">4. SEMESTRE</string>
     <string name="s5">5. SEMESTRE</string>
+    <string name="titulo">U Movil</string>
+    <string name="Mead">MEAD</string>
+    <string name="CI">CATEDRA INSTITUCIONAL</string>
+    <string name="Pb">PROGRAMACION BASICA</string>
+    <string name="Fm">FUNDAMENTOS DE MATEMATICAS</string>
+    <string name="IIS">INTRODUCCION ING. SOFTWARE</string>
+    <string name="CD">CALCULO DIFERENCIAL</string>
 </resources>

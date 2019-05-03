@@ -16,9 +16,7 @@
         android:background="@color/primary"
         android:elevation="8dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:logo="@drawable/ic_menu"
-        app:title="U Movil"
-        app:titleMarginStart="40dp">
+        app:title="@string/is">
 
     </android.support.v7.widget.Toolbar>
 
@@ -32,27 +30,11 @@
         android:layout_below="@id/toolbar"
         android:orientation="vertical">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-
-            <TextView
-                android:id="@+id/iv_logo"
-                android:layout_width="300dp"
-                android:layout_height="160dp"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/iv_dashboard" />
-
-            <TextView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="40dp"
-                android:background="@drawable/ic_atras"
-                android:onClick="anterior" />
-
-        </RelativeLayout>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:background="@drawable/iv_dashboard" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -65,7 +47,6 @@
                 android:paddingLeft="40dp"
                 android:paddingTop="10dp"
                 android:paddingRight="40dp">
-
 
                 <!--Bloque 1-->
                 <LinearLayout
@@ -127,7 +108,8 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="@string/s1"
-                            android:textSize="16sp" />
+                            android:textSize="16sp"
+                            android:onClick="next_uno"/>
 
                     </LinearLayout>
 
@@ -252,36 +234,6 @@
                     </LinearLayout>
 
                 </LinearLayout>
-
-                <!--              Bloque 4
-                             <LinearLayout
-                                 android:layout_width="match_parent"
-                                 android:layout_height="wrap_content"
-                                 android:layout_marginBottom="20dp"
-                                 android:background="#fff"
-                                 android:baselineAligned="false"
-                                 android:elevation="6dp"
-                                 android:orientation="horizontal"
-                                 android:weightSum="1">
-
-                                 <LinearLayout
-                                     android:layout_width="0dp"
-                                     android:layout_height="160dp"
-                                     android:layout_weight="1"
-                                     android:background="@color/primary"
-                                     android:orientation="vertical">
-
-                                     <TextView
-                                         android:layout_width="match_parent"
-                                         android:layout_height="match_parent"
-                                         android:gravity="center"
-                                         android:text="@string/ii"
-                                         android:textSize="16sp" />
-
-                                 </LinearLayout>
-
-                             </LinearLayout>-->
-
 
             </LinearLayout>
 

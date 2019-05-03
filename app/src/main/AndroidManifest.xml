@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity_is"></activity>
+
+        <!--Primera activity-->
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme">
@@ -21,6 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--Activity Ingenieria de software-->
+        <activity
+            android:name=".activity_is"
+            android:parentActivityName=".activity_is" />
+
+        <!--Activity asignaturas de IS-->
+        <activity
+            android:name=".activity_is_uno"
+            android:parentActivityName=".activity_is_uno">
+        </activity>
+
     </application>
 
 </manifest>

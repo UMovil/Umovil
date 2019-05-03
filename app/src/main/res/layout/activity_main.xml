@@ -17,7 +17,7 @@
         android:elevation="8dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:logo="@drawable/ic_menu"
-        app:title="U Movil"
+        app:title="@string/titulo"
         app:titleMarginStart="40dp">
 
     </android.support.v7.widget.Toolbar>
@@ -108,7 +108,7 @@
                             android:layout_height="match_parent"
                             android:elevation="10dp"
                             android:gravity="center"
-                            android:onClick="Siguiente"
+                            android:onClick="next"
                             android:shadowColor="@color/primary_text"
                             android:shadowDx="1"
                             android:shadowDy="1"

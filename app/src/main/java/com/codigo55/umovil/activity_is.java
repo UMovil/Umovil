@@ -15,10 +15,19 @@ public class activity_is extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        showToolbar(true);
     }
+
+    public void showToolbar(boolean upButton) {
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
+    }
+
     //MEtodos
-    public void anterior(View view){
-        Intent anterior = new Intent(this,MainActivity.class);
-        startActivity(anterior);
+    public void next_uno(View view){
+        Intent next_uno = new Intent(this,activity_is_uno.class);
+        startActivity(next_uno);
     }
 }
