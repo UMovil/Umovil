@@ -98,22 +98,24 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="140dp"
                         android:layout_weight="1"
-                        android:background="@color/primary_dark"
+                        android:background="@color/accent"
                         android:elevation="6dp">
 
                         <ImageView
                             android:id="@+id/as1"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:background="@drawable/iv_mead"
+                            android:layout_width="80dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/v_me"
                             android:contentDescription="@string/Mead" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:layout_below="@id/as1"
+                            android:layout_alignParentBottom="true"
                             android:gravity="center"
                             android:text="@string/Mead"
                             android:textColor="@color/white"
@@ -126,24 +128,26 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="140dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
-                        android:background="@color/primary_dark"
+                        android:background="@color/accent"
                         android:elevation="6dp">
 
                         <ImageView
                             android:id="@+id/as2"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:background="@drawable/iv_ci"
+                            android:layout_width="80dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/ic_v_ci"
                             android:contentDescription="@string/CI" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:layout_below="@id/as2"
+                            android:layout_alignParentBottom="true"
                             android:gravity="center"
                             android:text="@string/CI"
                             android:textColor="@color/white"
@@ -156,22 +160,24 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="140dp"
                         android:layout_weight="1"
-                        android:background="@color/primary_dark"
+                        android:background="@color/accent"
                         android:elevation="6dp">
 
                         <ImageView
                             android:id="@+id/as3"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:background="@drawable/iv_pb"
+                            android:layout_width="80dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/v_pb"
                             android:contentDescription="@string/Pb" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:layout_below="@id/as3"
+                            android:layout_alignParentBottom="true"
                             android:gravity="center"
                             android:text="@string/Pb"
                             android:textColor="@color/white"
@@ -194,22 +200,24 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="140dp"
                         android:layout_weight="1"
-                        android:background="@color/primary_dark"
+                        android:background="@color/accent"
                         android:elevation="6dp">
 
                         <ImageView
                             android:id="@+id/as4"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:background="@drawable/iv_fm"
+                            android:layout_width="80dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/v_fm"
                             android:contentDescription="@string/Fm" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:layout_below="@id/as4"
+                            android:layout_alignParentBottom="true"
                             android:gravity="center"
                             android:text="@string/Fm"
                             android:textColor="@color/white"
@@ -222,24 +230,26 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="140dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
-                        android:background="@color/primary_dark"
+                        android:background="@color/accent"
                         android:elevation="6dp">
 
                         <ImageView
                             android:id="@+id/as5"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:background="@drawable/iv_iis"
+                            android:layout_width="80dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/v_ii"
                             android:contentDescription="@string/IIS" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:layout_below="@id/as5"
+                            android:layout_alignParentBottom="true"
                             android:gravity="center"
                             android:text="@string/IIS"
                             android:textColor="@color/white"
@@ -252,22 +262,24 @@
 
                     <RelativeLayout
                         android:layout_width="0dp"
-                        android:layout_height="160dp"
+                        android:layout_height="140dp"
                         android:layout_weight="1"
-                        android:background="@color/primary_dark"
+                        android:background="@color/accent"
                         android:elevation="6dp">
 
                         <ImageView
                             android:id="@+id/as6"
-                            android:layout_width="match_parent"
-                            android:layout_height="100dp"
-                            android:background="@drawable/iv_cd"
+                            android:layout_width="80dp"
+                            android:layout_height="75dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/v_cd"
                             android:contentDescription="@string/CD" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="60dp"
-                            android:layout_below="@id/as6"
+                            android:layout_alignParentBottom="true"
                             android:gravity="center"
                             android:text="@string/CD"
                             android:textColor="@color/white"
