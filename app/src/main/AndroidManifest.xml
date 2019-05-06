@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.codigo55.umovil">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +16,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <!--Primera activity-->
+        <!-- Primera activity -->
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme">
@@ -22,18 +26,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!--Activity Ingenieria de software-->
+        <!-- Activity Ingenieria de software -->
         <activity
             android:name=".activity_is"
             android:parentActivityName=".activity_is" />
-
-        <!--Activity asignaturas de IS-->
+        <!-- Activity asignaturas de IS -->
         <activity
             android:name=".activity_is_uno"
             android:parentActivityName=".activity_is_uno">
+            <!-- Activity Catedra institucional -->
         </activity>
+        <activity android:name=".activity_ci"
+            android:parentActivityName=".activity_ci">
 
+        </activity>
     </application>
 
 </manifest>

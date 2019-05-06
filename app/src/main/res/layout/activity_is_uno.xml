@@ -133,7 +133,8 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:background="@color/accent"
-                        android:elevation="6dp">
+                        android:elevation="6dp"
+                        android:onClick="next_ci">
 
                         <ImageView
                             android:id="@+id/as2"
