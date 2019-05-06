@@ -85,13 +85,6 @@
 
                 </LinearLayout>
 
-                <com.google.android.youtube.player.YouTubePlayerView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/youtube_view">
-
-                </com.google.android.youtube.player.YouTubePlayerView>
-
             </LinearLayout>
 
         </ScrollView>
