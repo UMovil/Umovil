@@ -101,7 +101,9 @@
                         android:layout_height="140dp"
                         android:layout_weight="1"
                         android:background="@color/accent"
-                        android:elevation="6dp">
+                        android:elevation="6dp"
+                        android:onClick="next_mead"
+                        >
 
                         <ImageView
                             android:id="@+id/as1"
@@ -110,7 +112,9 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:background="@drawable/v_me"
-                            android:contentDescription="@string/Mead" />
+                            android:contentDescription="@string/Mead"
+
+                            />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -164,7 +168,9 @@
                         android:layout_height="140dp"
                         android:layout_weight="1"
                         android:background="@color/accent"
-                        android:elevation="6dp">
+                        android:elevation="6dp"
+                        android:onClick="next_pb"
+                        >
 
                         <ImageView
                             android:id="@+id/as3"
@@ -204,7 +210,9 @@
                         android:layout_height="140dp"
                         android:layout_weight="1"
                         android:background="@color/accent"
-                        android:elevation="6dp">
+                        android:elevation="6dp"
+                        android:onClick="next_fm"
+                        >
 
                         <ImageView
                             android:id="@+id/as4"
@@ -236,7 +244,9 @@
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
                         android:background="@color/accent"
-                        android:elevation="6dp">
+                        android:elevation="6dp"
+                        android:onClick="next_iis"
+                        >
 
                         <ImageView
                             android:id="@+id/as5"
@@ -275,7 +285,10 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:background="@drawable/v_cd"
-                            android:contentDescription="@string/CD" />
+                            android:contentDescription="@string/CD"
+                            android:onClick="next_cd"
+
+                            />
 
                         <TextView
                             android:layout_width="match_parent"

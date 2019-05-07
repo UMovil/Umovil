@@ -29,4 +29,25 @@ public class activity_is_uno extends AppCompatActivity {
         Intent next_ci = new Intent(this,activity_ci.class);
         startActivity(next_ci);
     }
+    public void next_pb(View view){
+        Intent next_pb = new Intent(this,activity_pb.class);
+        startActivity(next_pb);
+    }
+
+    public void next_mead(View view){
+        Intent next_mead = new Intent(this,activity_mead.class);
+        startActivity(next_mead);
+    }
+    public void next_fm(View view){
+        Intent next_fm = new Intent(this,activity_fm.class);
+        startActivity(next_fm);
+    }
+    public void next_iis(View view){
+        Intent next_iis = new Intent(this,activity_iis.class);
+        startActivity(next_iis);
+    }
+    public void next_cd(View view){
+        Intent next_cd = new Intent(this,activity_cd.class);
+        startActivity(next_cd);
+    }
 }

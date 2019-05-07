@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">U Mobile</string>
+        <string name="logo">logo</string>
+        <string name="ii">Information of Interest</string>
+        <string name="is">Software Engineering</string>
+        <string name="Share">Share</string>
+        <string name="About">About</string>
+        <string name="Exit">Exit</string>
+        <string name="Search">Search</string>
+        <string name="Home">Home</string>
+        <string name="s1">1. Semester</string>
+        <string name="s2">2. Semester</string>
+        <string name="s3">3. Semester</string>
+        <string name="s4">4. Semester</string>
+        <string name="s5">5. Semester</string>
+        <string name="titulo">U Mobile</string>
+        <string name="Mead">MEAD</string>
+        <string name="CI">Life Proyect</string>
+        <string name="Pb">Basic Programming</string>
+        <string name="Fm">Math Basics</string>
+        <string name="IIS">Introduction to Software Engineering</string>
+        <string name="CD">Diferential Calculus</string>
+        <string name="vd">VIDEO</string>
+
+</resources>

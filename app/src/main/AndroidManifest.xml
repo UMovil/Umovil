@@ -5,7 +5,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -26,20 +26,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <!-- Activity Ingenieria de software -->
         <activity
             android:name=".activity_is"
             android:parentActivityName=".activity_is" />
+
         <!-- Activity asignaturas de IS -->
         <activity
             android:name=".activity_is_uno"
             android:parentActivityName=".activity_is_uno">
+
             <!-- Activity Catedra institucional -->
         </activity>
-        <activity android:name=".activity_ci"
-            android:parentActivityName=".activity_ci">
+        <activity
+            android:name=".activity_ci"
+            android:parentActivityName=".activity_ci" />
 
-        </activity>
+        <!-- Activity Programacion Basica -->
+        <activity
+            android:name=".activity_pb"
+            android:parentActivityName=".activity_pb" />
+
+        <!-- Activity MEAD -->
+        <activity
+            android:name=".activity_mead"
+            android:parentActivityName=".activity_mead"
+            />
+        <!-- Activity fundamentos de matematica -->
+        <activity android:name=".activity_fm"
+            android:parentActivityName=".activity_fm"
+            />
+        <!-- Activity introduccion ING.SOFTWARE -->
+        <activity android:name=".activity_iis"
+            android:parentActivityName=".activity_iis"
+            />
+        <!-- Activity Calculo Diferencial -->
+        <activity
+            android:name=".activity_cd"
+            android:parentActivityName=".activity_cd"
+            ></activity>
     </application>
 
 </manifest>
