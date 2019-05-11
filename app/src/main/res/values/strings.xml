@@ -22,4 +22,7 @@
     <string name="CD">CALCULO DIFERENCIAL</string>
     <string name="vd">VIDEO</string>
     <string name="no">NOTICIAS</string>
+    <string name="tips">TIPS</string>
+    <string name="entretenimiento">Entretenimiento</string>
+    <string name="generales">GENERALES</string>
 </resources>

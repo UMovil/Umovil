@@ -24,5 +24,8 @@
         <string name="CD">Diferential Calculus</string>
         <string name="vd">VIDEO</string>
         <string name="no">NEWS</string>
+        <string name="tips">TIPS</string>
+        <string name="entretenimiento">ENTERTAIMENT</string>
+        <string name="generales">GENERAL</string>
 
 </resources>

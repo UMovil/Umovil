@@ -48,7 +48,6 @@
                 android:paddingTop="10dp"
                 android:paddingRight="40dp">
 
-
                 <!--Bloque 1-->
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -145,7 +144,7 @@
                             android:layout_height="match_parent"
                             android:elevation="10dp"
                             android:gravity="center"
-                            android:onClick="next"
+                            android:onClick="next2"
                             android:shadowColor="@color/primary_text"
                             android:shadowDx="1"
                             android:shadowDy="1"
@@ -216,7 +215,6 @@
                                     </LinearLayout>
 
                                 </LinearLayout>-->
-
 
             </LinearLayout>
 
