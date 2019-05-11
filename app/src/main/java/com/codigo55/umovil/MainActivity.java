@@ -29,4 +29,8 @@ public class MainActivity extends AppCompatActivity {
         Intent next2 = new Intent(this,activity_no.class);
         startActivity(next2);
     }
+    public void next_ii(View view){
+        Intent next_ii = new Intent(this,activity_ii.class);
+        startActivity(next_ii);
+    }
 }

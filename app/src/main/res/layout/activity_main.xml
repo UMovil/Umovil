@@ -64,7 +64,8 @@
                         android:layout_height="160dp"
                         android:layout_weight="1"
                         android:background="@drawable/iv_ii"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:onClick="next_ii">
 
                         <TextView
                             android:layout_width="match_parent"

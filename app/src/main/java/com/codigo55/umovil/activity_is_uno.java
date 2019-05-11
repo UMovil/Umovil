@@ -50,4 +50,5 @@ public class activity_is_uno extends AppCompatActivity {
         Intent next_cd = new Intent(this,activity_cd.class);
         startActivity(next_cd);
     }
+
 }

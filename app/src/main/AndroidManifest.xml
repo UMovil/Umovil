@@ -15,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
         <!-- Primera activity -->
         <activity
             android:name=".MainActivity"
@@ -51,11 +52,15 @@
             android:parentActivityName=".activity_iis" /> <!-- Activity Calculo Diferencial -->
         <activity
             android:name=".activity_cd"
-            android:parentActivityName=".activity_cd" />
-        <!-- Activity Noticias -->
+            android:parentActivityName=".activity_cd" /> <!-- Activity Noticias -->
         <activity
             android:name=".activity_no"
             android:parentActivityName=".activity_no" />
+        <activity android:name=".activity_ii"
+            android:parentActivityName=".activity_no"
+            >
+
+        </activity>
     </application>
 
 </manifest>
