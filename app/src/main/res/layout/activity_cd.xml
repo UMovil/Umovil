@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="com.codigo55.umovil.activity_cd">
+    tools:context="com.codigo55.umovil.activitys.activity_cd">
 
     <!--Inicio toolbar 1-->
 

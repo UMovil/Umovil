@@ -18,7 +18,7 @@
 
         <!-- Primera activity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".activitys.MainActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,37 +27,37 @@
             </intent-filter>
         </activity> <!-- Activity Ingenieria de software -->
         <activity
-            android:name=".activity_is"
-            android:parentActivityName=".activity_is" /> <!-- Activity asignaturas de IS -->
+            android:name=".activitys.activity_is"
+            android:parentActivityName=".activitys.activity_is" /> <!-- Activity asignaturas de IS -->
         <activity
-            android:name=".activity_is_uno"
-            android:parentActivityName=".activity_is_uno">
+            android:name=".activitys.activity_is_uno"
+            android:parentActivityName=".activitys.activity_is_uno">
 
             <!-- Activity Catedra institucional -->
         </activity>
         <activity
-            android:name=".activity_ci"
-            android:parentActivityName=".activity_ci" /> <!-- Activity Programacion Basica -->
+            android:name=".activitys.activity_ci"
+            android:parentActivityName=".activitys.activity_ci" /> <!-- Activity Programacion Basica -->
         <activity
-            android:name=".activity_pb"
-            android:parentActivityName=".activity_pb" /> <!-- Activity MEAD -->
+            android:name=".activitys.activity_pb"
+            android:parentActivityName=".activitys.activity_pb" /> <!-- Activity MEAD -->
         <activity
-            android:name=".activity_mead"
-            android:parentActivityName=".activity_mead" /> <!-- Activity fundamentos de matematica -->
+            android:name=".activitys.activity_mead"
+            android:parentActivityName=".activitys.activity_mead" /> <!-- Activity fundamentos de matematica -->
         <activity
-            android:name=".activity_fm"
-            android:parentActivityName=".activity_fm" /> <!-- Activity introduccion ING.SOFTWARE -->
+            android:name=".activitys.activity_fm"
+            android:parentActivityName=".activitys.activity_fm" /> <!-- Activity introduccion ING.SOFTWARE -->
         <activity
-            android:name=".activity_iis"
-            android:parentActivityName=".activity_iis" /> <!-- Activity Calculo Diferencial -->
+            android:name=".activitys.activity_iis"
+            android:parentActivityName=".activitys.activity_iis" /> <!-- Activity Calculo Diferencial -->
         <activity
-            android:name=".activity_cd"
-            android:parentActivityName=".activity_cd" /> <!-- Activity Noticias -->
+            android:name=".activitys.activity_cd"
+            android:parentActivityName=".activitys.activity_cd" /> <!-- Activity Noticias -->
         <activity
-            android:name=".activity_no"
-            android:parentActivityName=".activity_no" />
-        <activity android:name=".activity_ii"
-            android:parentActivityName=".activity_no"
+            android:name=".activitys.activity_no"
+            android:parentActivityName=".activitys.activity_no" />
+        <activity android:name=".activitys.activity_ii"
+            android:parentActivityName=".activitys.activity_no"
             >
 
         </activity>

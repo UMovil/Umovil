@@ -1,15 +1,17 @@
-package com.codigo55.umovil;
+package com.codigo55.umovil.activitys;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-public class activity_pb extends AppCompatActivity {
+import com.codigo55.umovil.R;
+
+public class activity_mead extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pb);
+        setContentView(R.layout.activity_mead);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

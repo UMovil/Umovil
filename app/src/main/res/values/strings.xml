@@ -3,10 +3,6 @@
     <string name="logo">logo</string>
     <string name="ii">INFORMACION DE INTERES</string>
     <string name="is">INGENIERIA DE SOFTWARE</string>
-    <string name="Share">Share</string>
-    <string name="About">About</string>
-    <string name="Exit">Exit</string>
-    <string name="Search">Search</string>
     <string name="Home">Home</string>
     <string name="s1">1.SEMESTRE</string>
     <string name="s2">2. SEMESTRE</string>
@@ -22,7 +18,5 @@
     <string name="CD">CALCULO DIFERENCIAL</string>
     <string name="vd">VIDEO</string>
     <string name="no">NOTICIAS</string>
-    <string name="tips">TIPS</string>
-    <string name="entretenimiento">Entretenimiento</string>
-    <string name="generales">GENERALES</string>
+
 </resources>

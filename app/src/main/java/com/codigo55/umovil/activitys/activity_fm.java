@@ -1,8 +1,10 @@
-package com.codigo55.umovil;
+package com.codigo55.umovil.activitys;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+
+import com.codigo55.umovil.R;
 
 public class activity_fm extends AppCompatActivity {
 
