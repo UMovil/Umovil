@@ -22,13 +22,11 @@ public class activity_no extends AppCompatActivity {
 
         showToolbar(true);
 
-        //Inicio Nuevo codigo
-
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.t1));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.t2));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.t3));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);

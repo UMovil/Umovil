@@ -36,8 +36,6 @@
             android:layout_gravity="center"
             android:background="@drawable/iv_dashboard" />
 
-
-
     </android.support.v7.widget.LinearLayoutCompat>
 
 </RelativeLayout>
