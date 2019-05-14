@@ -1,226 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context="com.codigo55.umovil.activitys.MainActivity">
-
-    <!--Inicio toolbar 1-->
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/primary"
-        android:elevation="8dp"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:logo="@drawable/ic_menu"
-        app:title="@string/titulo"
-        app:titleMarginStart="40dp">
-
-    </android.support.v7.widget.Toolbar>
-
-    <!--Fin toolbar 1-->
-
-    <android.support.v7.widget.LinearLayoutCompat
+    tools:context="com.codigo55.umovil.activitys.MainActivity"
+    >
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar"
-        android:orientation="vertical">
+        android:background="@color/white">
 
-        <TextView
-            android:layout_width="300dp"
-            android:layout_height="160dp"
-            android:layout_gravity="center"
-            android:background="@drawable/iv_dashboard" />
 
-        <ScrollView
+        // Inicio Tolbar
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:elevation="8dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="@string/titulo"
+            app:titleMarginStart="0dp">
+        </android.support.v7.widget.Toolbar>
+        //Fin Toolbar
 
-            <LinearLayout
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:background="@drawable/iv_dashboard"
+
+
+                />
+
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingLeft="40dp"
-                android:paddingTop="10dp"
-                android:paddingRight="40dp">
+                android:layout_height="match_parent">
 
-                <!--Bloque 1-->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:background="@color/white"
-                    android:baselineAligned="false"
-                    android:elevation="6dp"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
+                    android:orientation="vertical"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="40dp">
 
+                    <!--Bloque 1-->
                     <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="160dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/iv_ii"
-                        android:orientation="vertical"
-                        android:onClick="next_ii">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/white"
+                        android:baselineAligned="false"
+                        android:elevation="6dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:elevation="10dp"
-                            android:gravity="center"
-                            android:shadowColor="@color/primary_text"
-                            android:shadowDx="1"
-                            android:shadowDy="1"
-                            android:shadowRadius="2"
-                            android:text="@string/ii"
-                            android:textColor="@color/white"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="160dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/iv_ii"
+                            android:onClick="next_ii"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="10dp"
+                                android:gravity="center"
+                                android:shadowColor="@color/primary_text"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="2"
+                                android:text="@string/ii"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
-                </LinearLayout>
-
-                <!--Bloque 2-->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:background="#fff"
-                    android:baselineAligned="false"
-                    android:elevation="6dp"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
-
+                    <!--Bloque 2-->
                     <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="160dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/iv_is"
-                        android:orientation="vertical">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="#fff"
+                        android:baselineAligned="false"
+                        android:elevation="6dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:elevation="10dp"
-                            android:gravity="center"
-                            android:onClick="next"
-                            android:shadowColor="@color/primary_text"
-                            android:shadowDx="1"
-                            android:shadowDy="1"
-                            android:shadowRadius="2"
-                            android:text="@string/is"
-                            android:textColor="@color/white"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="160dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/iv_is"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="10dp"
+                                android:gravity="center"
+                                android:onClick="next"
+                                android:shadowColor="@color/primary_text"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="2"
+                                android:text="@string/is"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
-                </LinearLayout>
-
-                <!--Bloque 3-->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:background="#fff"
-                    android:baselineAligned="false"
-                    android:elevation="6dp"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
-
+                    <!--Bloque 3-->
                     <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="160dp"
-                        android:layout_weight="1"
-                        android:background="@drawable/iv_no"
-                        android:orientation="vertical">
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="#fff"
+                        android:baselineAligned="false"
+                        android:elevation="6dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:elevation="10dp"
-                            android:gravity="center"
-                            android:onClick="next2"
-                            android:shadowColor="@color/primary_text"
-                            android:shadowDx="1"
-                            android:shadowDy="1"
-                            android:shadowRadius="2"
-                            android:text="@string/no"
-                            android:textColor="@color/white"
-                            android:textSize="18sp"
-                            android:textStyle="bold"/>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="160dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/iv_no"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="10dp"
+                                android:gravity="center"
+                                android:onClick="next2"
+                                android:shadowColor="@color/primary_text"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="2"
+                                android:text="@string/no"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
-                </LinearLayout>
-
-                <!--            Bloque 3
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginBottom="20dp"
-                                    android:background="#fff"
-                                    android:baselineAligned="false"
-                                    android:elevation="6dp"
-                                    android:orientation="horizontal"
-                                    android:weightSum="1">
-
+                    <!--            Bloque 3
                                     <LinearLayout
-                                        android:layout_width="0dp"
-                                        android:layout_height="160dp"
-                                        android:layout_weight="1"
-                                        android:background="@color/primary"
-                                        android:orientation="vertical">
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="20dp"
+                                        android:background="#fff"
+                                        android:baselineAligned="false"
+                                        android:elevation="6dp"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1">
 
-                                        <TextView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent"
-                                            android:gravity="center"
-                                            android:text="@string/ii"
-                                            android:textSize="16sp" />
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="160dp"
+                                            android:layout_weight="1"
+                                            android:background="@color/primary"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/ii"
+                                                android:textSize="16sp" />
+
+                                        </LinearLayout>
 
                                     </LinearLayout>
 
-                                </LinearLayout>
-
-                                 Bloque 4
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginBottom="20dp"
-                                    android:background="#fff"
-                                    android:baselineAligned="false"
-                                    android:elevation="6dp"
-                                    android:orientation="horizontal"
-                                    android:weightSum="1">
-
+                                     Bloque 4
                                     <LinearLayout
-                                        android:layout_width="0dp"
-                                        android:layout_height="160dp"
-                                        android:layout_weight="1"
-                                        android:background="@color/primary"
-                                        android:orientation="vertical">
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="20dp"
+                                        android:background="#fff"
+                                        android:baselineAligned="false"
+                                        android:elevation="6dp"
+                                        android:orientation="horizontal"
+                                        android:weightSum="1">
 
-                                        <TextView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent"
-                                            android:gravity="center"
-                                            android:text="@string/ii"
-                                            android:textSize="16sp" />
+                                        <LinearLayout
+                                            android:layout_width="0dp"
+                                            android:layout_height="160dp"
+                                            android:layout_weight="1"
+                                            android:background="@color/primary"
+                                            android:orientation="vertical">
 
-                                    </LinearLayout>
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:gravity="center"
+                                                android:text="@string/ii"
+                                                android:textSize="16sp" />
 
-                                </LinearLayout>-->
+                                        </LinearLayout>
 
-            </LinearLayout>
+                                    </LinearLayout>-->
 
-        </ScrollView>
+                </LinearLayout>
 
-    </android.support.v7.widget.LinearLayoutCompat>
+            </ScrollView>
 
-</RelativeLayout>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        //fragments de opciones de menu
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp">
+
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+
+
+// navegacion menu desplegable
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_navigation_drawer"
+        app:menu="@menu/nav_options"
+        android:background="@color/white"
+        >
+
+    </android.support.design.widget.NavigationView>
+
+
+
+</android.support.v4.widget.DrawerLayout>
