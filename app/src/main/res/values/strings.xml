@@ -21,10 +21,9 @@
     <string name="t1">TIP´S</string>
     <string name="t2">CAMPUS</string>
     <string name="t3">GEEK</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-
     <string name="f1_menu">CONTACTENOS</string>
     <string name="f2_menu">ACERCA DE</string>
     <string name="f3_menu">INFORMACION</string>
+    <string name="tips">TIPS</string>
+    <string name="ta">TEXTOS DE AYUDA</string>
 </resources>

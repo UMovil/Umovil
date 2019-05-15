@@ -30,12 +30,6 @@
         android:layout_below="@id/toolbar"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="300dp"
-            android:layout_height="160dp"
-            android:layout_gravity="center"
-            android:background="@drawable/iv_dashboard" />
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -44,56 +38,46 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:orientation="vertical"
-                android:paddingLeft="40dp"
-                android:paddingTop="10dp"
-                android:paddingRight="40dp">
+                android:orientation="vertical">
 
-                <!--Bloque 1-->
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="160dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/iv_dashboard" />
+
+                <!--Division texto videos-->
+
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="40dp"
-                    android:background="@color/white"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/accent"
                     android:baselineAligned="false"
-                    android:elevation="6dp"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
+                    android:elevation="8dp"
+                    android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="60dp"
-                        android:layout_weight="1"
-                        android:background="@color/accent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:elevation="10dp"
-                            android:gravity="center"
-                            android:shadowColor="@color/primary_text"
-                            android:shadowDx="1"
-                            android:shadowDy="1"
-                            android:shadowRadius="2"
-                            android:text="@string/vd"
-                            android:textColor="@color/white"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/vd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold"/>
 
                 </LinearLayout>
 
-                <!--Bloque prueba-->
+                <!--Bloque de videos-->
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginBottom="40dp"
                     android:background="@color/white"
                     android:baselineAligned="false"
-                    android:elevation="6dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp">
 
                     <WebView
                         android:id="@+id/webView1"
@@ -106,6 +90,56 @@
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:layout_marginBottom="10dp" />
+
+                    <WebView
+                        android:id="@+id/webView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginBottom="10dp" />
+
+                </LinearLayout>
+
+                <!--Division texto Tips-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/accent"
+                    android:baselineAligned="false"
+                    android:elevation="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/tips"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Division texto Textos de ayuda-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/accent"
+                    android:baselineAligned="false"
+                    android:elevation="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/ta"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
