@@ -24,7 +24,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
 
-    <string name="f1_menu">Correo</string>
-    <string name="f2_menu">Acerda de</string>
-    <string name="f3_menu">Informacion</string>
+    <string name="f1_menu">CONTACTENOS</string>
+    <string name="f2_menu">ACERCA DE</string>
+    <string name="f3_menu">INFORMACION</string>
 </resources>

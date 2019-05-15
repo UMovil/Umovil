@@ -16,6 +16,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
+
+
         <!-- Primera activity -->
         <activity
             android:name=".activitys.MainActivity"
@@ -56,10 +58,17 @@
         <activity
             android:name=".activitys.activity_no"
             android:parentActivityName=".activitys.activity_no" />
-        <activity android:name=".activitys.activity_ii"
-            android:parentActivityName=".activitys.activity_no"
-            >
-
+        <activity
+            android:name=".activitys.activity_ii"
+            android:parentActivityName=".activitys.activity_no" />
+        <activity android:name=".activitys.Activity_op1"
+            android:parentActivityName=".activitys.Activity_op1"
+            />
+        <activity android:name=".activitys.Activity_op2"
+            android:parentActivityName=".activitys.Activity_op2"
+            />
+        <activity android:name=".activitys.Activity_op3"
+            android:parentActivityName=".activitys.Activity_op3">
         </activity>
     </application>
 

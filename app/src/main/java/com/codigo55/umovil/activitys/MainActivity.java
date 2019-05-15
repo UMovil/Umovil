@@ -13,12 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.codigo55.umovil.R;
-import com.codigo55.umovil.activitys.activity_ii;
-import com.codigo55.umovil.activitys.activity_is;
-import com.codigo55.umovil.activitys.activity_no;
-import com.codigo55.umovil.fragments.Acerca_de_Fragment;
-import com.codigo55.umovil.fragments.EmailFragment;
-import com.codigo55.umovil.fragments.InformacionFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,36 +35,23 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
-
-              boolean fragmentTransaction = false;
-
-              Fragment fragment = null;
-
-              switch (menuItem.getItemId()) {
+                switch (menuItem.getItemId()) {
 
                   case R.id.menu_op1:
-                      fragment = new EmailFragment();
-                      fragmentTransaction=true;
+                      Intent i1 =new Intent(MainActivity.this,Activity_op1.class);
+                      startActivity(i1);
                       break;
                       case R.id.menu_op2:
-                      fragment = new InformacionFragment();
-                      fragmentTransaction=true;
+                          Intent i2 =new Intent(MainActivity.this,Activity_op2.class);
+                          startActivity(i2);
                       break;
                       case R.id.menu_op3:
-                      fragment = new Acerca_de_Fragment();
-                      fragmentTransaction=true;
+                          Intent i3 =new Intent(MainActivity.this,Activity_op3.class);
+                          startActivity(i3);
                       break;
 
-
               }
-              if (fragmentTransaction ) {
 
-                   getSupportFragmentManager().beginTransaction().replace(R.id.content_frame,fragment).commit();
-
-                   menuItem.setChecked(true);
-                   getSupportActionBar().setTitle(menuItem.getTitle());
-                   drawerLayout.closeDrawers();
-               }
                return  true;
             }
         });
