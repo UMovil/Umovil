@@ -2,6 +2,7 @@ package com.codigo55.umovil.activitys;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -60,6 +61,7 @@ public class activity_ci extends AppCompatActivity{
 
         //
     }
+    //
     public void showToolbar(boolean upButton) {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

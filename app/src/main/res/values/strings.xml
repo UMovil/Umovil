@@ -16,7 +16,7 @@
     <string name="Fm">FUNDAMENTOS DE MATEMATICAS</string>
     <string name="IIS">INTRODUCCION ING. SOFTWARE</string>
     <string name="CD">CALCULO DIFERENCIAL</string>
-    <string name="vd">VIDEO</string>
+    <string name="vd">VIDEOS</string>
     <string name="no">NOTICIAS</string>
     <string name="t1">TIP´S</string>
     <string name="t2">CAMPUS</string>
@@ -26,4 +26,8 @@
     <string name="f3_menu">INFORMACION</string>
     <string name="tips">TIPS</string>
     <string name="ta">TEXTOS DE AYUDA</string>
+    <string name="tip_ci_1">Conocerte a ti mismo es indispensable para la realización de un proyecto de vida.</string>
+    <string name="tip_ci_2">Rompe los paradigmas y sé positivo.</string>
+    <string name="tip_ci_3">Plasma cada idea, meta o sueño que tengas por muy insignificante que parezca.</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_hor_scroll">120dp</dimen>
+    <dimen name="bloque_height">200dp</dimen>
+    <dimen name="iv_width">180dp</dimen>
+    <dimen name="iv_height">90dp</dimen>
+    <dimen name="tip_padding">10dp</dimen>
+    <dimen name="tip_iv">40dp</dimen>
+    <dimen name="tip_text_size">19sp</dimen>
+    <dimen name="mar_bott">10dp</dimen>
+</resources>

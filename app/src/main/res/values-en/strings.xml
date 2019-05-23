@@ -17,7 +17,7 @@
     <string name="Fm">MATH BASICS</string>
     <string name="IIS">INTRODUCTION TO SOFTWARE ENGINEERING</string>
     <string name="CD">DIFERENTIAL CALCULUS</string>
-    <string name="vd">VIDEO</string>
+    <string name="vd">VIDEOS</string>
     <string name="no">NEWS</string>
     <string name="t1">TIP´S</string>
     <string name="t2">CAMPUS</string>
@@ -27,4 +27,8 @@
     <string name="f3_menu">INFORMATION</string>
     <string name="tips">TIPS</string>
     <string name="ta">HELP TEXTS</string>
+    <string name="tip_ci_1">Para crear un proyecto de vida no es necesario hacer planes gigantes o tomar cosas en el aire para desanimar en un futuro cuando esos objetivos se vean algo obstaculizados; para crear este documento se necesita pensar, colocar en claro ciertos aspectos como por ejemplo las conductas cotidianas, lo que te gusta hacer, el objetivo es conocerte a ti mismo, tener autonomía para la toma de decisiones y una autoestima que sobreponga sobre todo obstáculo</string>
+    <string name="tip_ci_2">Rompe los paradigmas y sé positivo.</string>
+    <string name="tip_ci_3">Plasma cada idea, meta o sueño que tengas por muy insignificante que parezca.</string>
+    <string name="todo">TODO</string>
 </resources>
